@@ -1,0 +1,115 @@
+/*Acceuil-photos*/
+.acceuil-photos {
+  background-color: white;
+  padding: 80px;
+}
+.acceuil-photos__Titre {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.acceuil-photos__Titre__Img {
+  display: flex;
+  flex-direction: row;
+  gap: 15px; /*Espacement entre les elements*/
+  justify-content: center; /*Placement des objets selon l'espace que l'on veut attribuer*/
+  margin-bottom: 15px;
+}
+
+/*Acceuil-introduction*/
+.accueil-introduction {
+  display: flex;
+  flex-direction: row; /*Direction des objets flexible en ligne ou en colonne*/
+  max-width: 1000px;
+  align-items: flex-start;
+  margin: auto; /*Pour recentrer grace aux marges*/
+}
+
+.accueil-introduction h1 {
+  margin-bottom: 15px;
+}
+
+.accueil-introduction p {
+  margin-bottom: 30px;
+}
+
+.acceuil-introduction div {
+  padding-right: 80px;
+}
+
+/*Formulaire*/
+.Coordonate h2 {
+  text-align: center;
+  color: #a5b4fc;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px; /*Taille max en pixel*/
+  margin: auto;
+  color: white;
+}
+
+.form-nom-email {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.form-colum {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+/*On va chercher la balise input contenant la fonction type='submit'*/
+input[type=submit] {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 996px) {
+  .acceuil-introduction {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .accueil-introduction div {
+    padding-right: 0;
+    text-align: center;
+    order: 2;
+  }
+  .accueil-introduction img {
+    order: 1;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .acceuil-photos {
+    padding: 20px;
+  }
+  .acceuil-photos div {
+    flex-direction: column;
+  }
+  .Coordonate {
+    padding: 50px 20px;
+  }
+  .form-nom-email {
+    flex-direction: column;
+    gap: 0;
+  }
+}/*# sourceMappingURL=index.css.map */

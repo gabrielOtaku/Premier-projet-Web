@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	
+
+	<!--style ecriture Manrope et Montserrat-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+
+	
+
+	<!--Css-->
+	<link rel="stylesheet" type="text/css" href="Css/monCSS.css" >
+	<link rel="stylesheet" type="text/css" href="Css/index.scss" >
+	<title>Acceuil - Robbie Lens Photographie</title>
+</head>
+<body>
+
+	<!--Lien vers a propos-->
+	<header>
+		<nav>	
+		<img src="images/logo.png" alt="logo robbie-lens">
+		<div>
+		<a href="index.html">Acceuil</a>
+		<a href="dossier-demo/a-propos.html" >A propos</a>
+		<a href="Porttfolio/monPortfolio.html">Portfolio</a>
+	</div>
+</nav>
+</header>
+	
+
+	<!--Titre-->
+	<main>
+		<section class="accueil-introduction">
+			<div>
+<h1>Robbie Lens Photographie </h1>
+
+<!--Paragraphe-->
+<p>Où <em> professionalisme</em> s’allie avec <em> passion</em>. Depuis plus de 5 ans maintenant, j’exerce mon métier avec la passion
+        qui m’anime : capturer l’essence de chaque instant</p>
+
+		<!--Redirection projets-->
+
+	<a href="#monProjet" class="cta">Tu as un projet ?</a>
+</div> 
+
+<!--photographie-->	
+
+<img src="images/robbie.png" alt="Portrait avec effet de la photographie Robbie Lens"/>
+
+</section>
+
+<!--Exposition des photos-->
+
+ 
+<section class="acceuil-photos">
+  
+	<h2 class="acceuil-photos__Titre">Mes derniers projets</h2>
+
+	<div class="acceuil-photos__Img">
+	<img src="images/element-1.png" alt="Twelve apostles - Australie">
+	<img src="images/element-2.png" alt="Wai-O-Tapu - Nouvelle-Zelande">
+	<img src="images/element-3.png" alt="Nouvelle-Zellande">
+
+	<img src="images/element-4.png" alt="Nouvelle-Zellande">
+	<img src="images/element-5.png" alt="Nouvelle-Zellande">
+	<img src="images/element-6.png" alt="Nouvelle-Zellande">
+</div>
+
+</section>
+<section id="monProjet" class="Coordonate">
+	<h2>Parle moi de ton projet</h2>
+	<form method="get" action="#">
+	<div class="form-nom-email">
+		<div class="form-colum">
+			<label for="nom">Nom :</label><br>
+			<input type="text" name="nom" id="nom" placeholder="Ex. : Mathieu" required autofocus />
+		</div>
+		<div class="form-colum">
+			<label for="email">E-mail</label><br>
+			<input type="e-mail" name="email" id="email" placeholder="Ex. : hello@hello.com" required />
+		</div>
+	</div>
+
+		<label for="messgae">Commentaire</label>
+		<textarea name="message" id="message"  rows="10"></textarea>
+		<input type="submit" value="Emvoyer" class="cta"/>
+	</form>
+</section>
+</main>
+ 
+
+<!--pied de page-->
+<footer>
+<img src="images/logo.png" alt="Logo de Robbie">
+<a target="_blank" href="https://twitter.com/" class="lien-icone">
+	<img src="images/twitter.png" alt="Logo twitter">
+</a>
+<a target="_blank" href="https://www.intagram.com/" class="lien-icone">
+	<img src="images/instagram.png" alt="Logo instagram">
+</a>
+</footer>
+
+</body>
+</html>
